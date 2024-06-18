@@ -48,6 +48,8 @@ $ anvil
 ### Deploy
 
 ```shell
+$ forge create --rpc-url linea-testnet src/SimpleCryptoKitties.sol:SimpleCryptoKitties --private-key $PRIVATE_KEY
+
 $ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
 
