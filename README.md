@@ -49,6 +49,12 @@ $ anvil
 
 ```shell
 $ forge create --rpc-url linea-testnet src/SimpleCryptoKitties.sol:SimpleCryptoKitties --private-key $PRIVATE_KEY
+# If return
+# Error: 
+# server returned an error response: error code -32009: Gas price below configured minimum gas price
+# Deployer: 0x50F1e3510F6e4a8E83F195B7071B50Fa5dF0bB87
+# Deployed to: 0x0078bFae1C5bf0Cd62D2EDEc7C4E2c0f2b8f5CCf
+# Transaction hash: 0x1031b76fefe58e791953893ecdfb5ec0ce2278adfc03d93ce4072a4cc8b6d3e7
 
 $ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
