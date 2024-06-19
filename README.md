@@ -1,74 +1,13 @@
-## Foundry
+This is the project of NFT and DutchAuction that I develop by solidity. And deploy and verify by foundry.
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Solidity is one of the smart contract language base on EVM(Ethereum Virtual Machine).
 
-Foundry consists of:
+This project is deploy on the linea-sepolia.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+You can find the course on [hackquest](https://www.hackquest.io/zh/dashboard).
+
 
 ## Documentation
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge create --rpc-url linea-testnet src/SimpleCryptoKitties.sol:SimpleCryptoKitties --private-key $PRIVATE_KEY
-# If return
-# Error: 
-# server returned an error response: error code -32009: Gas price below configured minimum gas price
-# Deployer: 0x50F1e3510F6e4a8E83F195B7071B50Fa5dF0bB87
-# Deployed to: 0x0078bFae1C5bf0Cd62D2EDEc7C4E2c0f2b8f5CCf
-# Transaction hash: 0x1031b76fefe58e791953893ecdfb5ec0ce2278adfc03d93ce4072a4cc8b6d3e7
-
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+[Foundry](https://book.getfoundry.sh/)  
+[Deploy And Verify Process](/Remark.md)
